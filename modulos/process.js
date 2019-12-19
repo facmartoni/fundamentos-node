@@ -4,6 +4,9 @@ process.on("beforeExit", () => {
 
 process.on("exit", () => {
   console.log("Ale, el proceso acabó");
+  //Una vez que el evento "exit" sucede nos deconectamos
+  //completamente del event loop. Es decir, una función
+  //como setTimeout no funcionaría
 });
 
 process.on("uncaughtException", (err, origen) => {
