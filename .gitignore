@@ -1,2 +1,7 @@
-paquetes/npm/node_modules/
-paquetes/utiles/node_modules/
+# paquetes/npm/node_modules
+# paquetes/utiles/node_modules
+# herramientas/automatizacion/node_modules
+# herramientas/scraping/node_modules
+# herramientas/electron/node_modules
+
+*node_modules/
